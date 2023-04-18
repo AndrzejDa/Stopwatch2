@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../StopwatchV3.srcs/sources_1/new/clkgen.vhd" \
+"../../../../StopwatchV3.srcs/sources_1/new/display.vhd" \
+"../../../../StopwatchV3.srcs/sources_1/new/top.vhd" \
+"../../../../StopwatchV3.srcs/sim_1/new/sim_1_tb.vhd" \
+
+# Do not sort compile order
+nosort
